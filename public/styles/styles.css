@@ -1,0 +1,130 @@
+.list-group-item {
+  line-height: 2.5;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+    
+.page-footer{
+    bottom: 0px;
+    width: 100%;
+}
+
+.container{
+  padding: 20px 0px;
+}
+
+nav{
+  background-color: #ffffff;
+  color:#333;
+  padding: 0px 50px;
+}
+
+nav ul a{
+  color:#333;
+}
+
+.page-footer{
+  background-color: #ffffff;
+  columns: #333333;
+}
+
+.page-footer .footer-copyright{
+  color: #333333;
+}
+
+nav .brand-logo{
+  color: #333333;
+}
+
+.material-icons{
+  color: #333333;
+}
+
+.brand-logo{
+  margin-left: 70px;
+}
+
+.col .row{
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.editService, .removeService{
+  position: absolute;
+  top:0px;
+  right:30px;
+  cursor: pointer;
+}
+.removeService{
+  right:5px;
+}
+
+.card-action {
+  height: 180px;
+}
+
+.card-action h5{
+  line-height: 0%;
+  margin-top: 5px;
+}
+
+.card-content{
+  padding-top: 20px;
+}
+.card-header{
+  padding: 20px;
+  margin-bottom: 25px;
+}
+.card-header h5{
+  margin: 0px;
+}
+
+.mainContainer{
+  height: 100%;
+}
+
+.brand-logo {
+  background-image: url(../images/logo-eservices.png);
+  background-repeat: no-repeat;
+  background-size: 179px 65px;
+  width:179px;
+  height:65px;
+}
+
+#signin, #signup{
+  width:100%;
+}
+
+#signInPage .card{
+  text-align: center;
+}
+#signInPage .card-content{
+  max-width: 60%;
+  margin: auto;
+}
+
+#signInPage .card-header{
+  border-bottom: 1px solid #ccc;
+}
+
+#betweenLine{
+  position: relative;
+}
+#signInPage hr{
+  color:#ccc;
+  margin: 20px 0px;
+}
+#betweenLine p{
+  position: absolute;
+  top: -14px;
+  right: 47%;
+  background-color: #fff;
+  padding: 0px 5px;
+}

@@ -1,0 +1,29 @@
+<div class="container mainContainer" id="servicesPage">
+    <div class="row">
+        {{#each services}}
+        <div class="col s12 m10">
+            <h5 class="header">{{title}}</h5>
+            <div class="card horizontal">
+                <div class="card-image">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content serviceBox" data-userid="{{UserId}}" data-serviceid="{{id}}">
+                        <i class="material-icons editService" style="display: none;"><a href="">edit</a></i>
+                        <i class="material-icons removeService" style="display: none;">clear</i>
+
+                        <p>{{description}}</p>
+                        <p>{{price}}</p>
+                    </div>
+                    <div class="card-action">
+                        <p class="currBids">Current Bids:   {{#each this.Bids}}<span>{{price}} , </span>{{/each}} </p>
+                        <input type="text" class="bidInput" data-serviceid="{{id}}">
+                         <button class="waves-effect waves-light btn modal-trigger bidSubmit" >Submit your bid</button>
+                 
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+<script src="/js/services.js"></script>
