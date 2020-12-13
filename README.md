@@ -1,5 +1,4 @@
 # EService
-https://ucla-group-project-2.herokuapp.com/
 ============================================================
 
 ## Purpose:
@@ -29,6 +28,8 @@ https://ucla-group-project-2.herokuapp.com/
  ### Screenshots:
 
 Javascript code put into MySQL Workbench:
+https://ucla-group-project-2.herokuapp.com/
+
 ![initial load](/README/homepage.jpg)
 --------------------------------------------------------------
 
